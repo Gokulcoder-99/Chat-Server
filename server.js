@@ -13,7 +13,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // Replace with your allowed origin(s)
+    origin: "https://chat-ui-green-omega.vercel.app/", // Replace with your allowed origin(s)
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
